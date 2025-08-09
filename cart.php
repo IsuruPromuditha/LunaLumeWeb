@@ -79,7 +79,6 @@ $cart = $migrated_cart;
             <h2 class="text-2xl font-semibold text-gray-800 mb-4">Payment Options</h2>
             <p class="text-gray-600 mb-6">Our payment gateway is currently unavailable. However, you can still reserve your order with the following options:</p>
             <div class="flex flex-col sm:flex-row gap-4">
-                <a href="checkout.php?method=store_pickup" class="border-2 border-blue-500 text-blue-500 py-3 px-6 rounded-lg bg-transparent hover:bg-blue-500 hover:text-white transition ease-in-out duration-300 font-semibold text-center">Reserve for Store Pickup</a>
                 <a href="checkout.php?method=cod" class="border-2 border-blue-500 text-blue-500 py-3 px-6 rounded-lg bg-transparent hover:bg-blue-500 hover:text-white transition ease-in-out duration-300 font-semibold text-center">Cash on Delivery</a>
             </div>
         </section>
