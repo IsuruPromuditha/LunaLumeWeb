@@ -1,0 +1,33 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+nav a:hover {
+    transition: color 0.3s ease;
+}
+
+button, a.bg-blue-500 {
+    transition: background-color 0.3s ease;
+}
+
+img {
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    nav .flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav .hidden {
+        display: block !important;
+    }
+    nav .space-x-1 > * + * {
+        margin-top: 0.5rem;
+        margin-left: 0;
+    }
+}
